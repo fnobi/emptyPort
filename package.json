@@ -1,5 +1,5 @@
 {
-  "name": "emptyPort",
+  "name": "empty-port",
   "version": "0.0.1",
   "description": "callback port number picked randomly.",
   "main": "index.js",
