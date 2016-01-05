@@ -2,7 +2,7 @@ var net = require('net');
 
 var empryPort = function (opt, callback) {
         var startPort = opt.startPort || opt.port || 1;
-        var maxPort   = opt.maxPort   || opt.port || 65537;
+        var maxPort   = opt.maxPort   || opt.port || 65535;
         var host      = opt.host      || 'localhost';
 
         var usedPorts = {};
